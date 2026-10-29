@@ -53,6 +53,28 @@ Changing a local task does not imply that a source message was sent. Available
 actions depend on the source and permissions. Communication catch-up reports its
 actual source coverage; unavailable sources are not evidence of an empty inbox.
 
+## Reviewer walkthrough and App examples
+
+[Watch the reviewer walkthrough](https://youtu.be/c6vq83100Jk) (4:05, English
+narration and captions). The video uses edited captures from the dedicated
+synthetic workspace and shows all five skills, attachment preparation, the
+interactive review panel, and independently verified delivery. It is not a
+continuous recording. Reviewer credentials are supplied privately, not here.
+
+The following PNGs are actual Claude App responses, cropped to the App and at
+least 1000 pixels wide. They contain synthetic demo data only.
+
+| App response | Prompt and interaction |
+| --- | --- |
+| [Review a prepared reply](assets/reviewer-app/review.png) | "Resolve CRV-4: read its source context and original launch-costs.csv, calculate Revenue minus Expenses, prepare a completed CSV and a concise reply, and show the Seflo review panel. Do not send yet." |
+| [Choose files](assets/reviewer-app/files.png) | Continue the same prepared reply, then open **Reuse files** in the App to inspect available files. Preparation and file selection do not send the reply. |
+| [Completed action](assets/reviewer-app/completed.png) | Review the destination, edit the reply, inspect the selected completed CSV, then explicitly click **Send and complete**. The completed response confirms the recorded action result. |
+
+CRV-4 is the completed demonstration in the video and screenshots. For a fresh
+review, use the open **CRV-5** budget email task and the private test instructions.
+Its destination is email, so its available controls differ from the demonstrated
+Trello comment. Never send again merely to reproduce a completed screenshot.
+
 ## Data and permissions
 
 This package contains Markdown workflow instructions and JSON configuration. It
