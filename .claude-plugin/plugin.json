@@ -16,5 +16,8 @@
     "tasks",
     "knowledge"
   ],
-  "privacyPolicyUrl": "https://seflo.ai/privacy"
+  "privacyPolicyUrl": "https://seflo.ai/privacy",
+  "documentationUrl": "https://github.com/tomas-perun/seflo-claude#readme",
+  "supportUrl": "https://seflo.ai/support",
+  "termsOfServiceUrl": "https://seflo.ai/terms"
 }
