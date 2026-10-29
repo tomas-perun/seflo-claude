@@ -1,0 +1,15 @@
+interface:
+  display_name: "Review your Seflo priorities"
+  short_description: "Review priorities and choose your next task."
+  default_prompt: "Use $seflo-daily-brief to recommend what I should work on today."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "seflo"
+      description: "Seflo tasks, projects, Knowledge and reviewed actions"
+      transport: "streamable_http"
+      url: "https://app.seflo.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true

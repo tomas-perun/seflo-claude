@@ -1,0 +1,15 @@
+interface:
+  display_name: "Catch up on actionable messages"
+  short_description: "Find recent messages that may need action."
+  default_prompt: "Use $seflo-communication-catchup to find actionable messages from the last 24 hours."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "seflo"
+      description: "Seflo tasks, projects, Knowledge and reviewed actions"
+      transport: "streamable_http"
+      url: "https://app.seflo.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true

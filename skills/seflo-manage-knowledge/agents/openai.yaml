@@ -1,0 +1,15 @@
+interface:
+  display_name: "Manage Seflo knowledge"
+  short_description: "Find, write and update project Knowledge articles."
+  default_prompt: "Use $seflo-manage-knowledge to save these decisions as a project Knowledge article."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "seflo"
+      description: "Seflo tasks, projects, Knowledge and reviewed actions"
+      transport: "streamable_http"
+      url: "https://app.seflo.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true

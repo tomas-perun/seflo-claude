@@ -1,0 +1,15 @@
+interface:
+  display_name: "Organize work in Seflo"
+  short_description: "Find and organize Seflo tasks and projects."
+  default_prompt: "Use $seflo-organize-work to create a task in my project from these action items."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "seflo"
+      description: "Seflo tasks, projects, Knowledge and reviewed actions"
+      transport: "streamable_http"
+      url: "https://app.seflo.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true

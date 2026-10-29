@@ -1,0 +1,19 @@
+{
+  "name": "seflo",
+  "displayName": "Seflo",
+  "version": "1.0.0",
+  "description": "Organize tasks, projects and Knowledge in Seflo, review daily priorities, and prepare supported replies with attachments for your approval.",
+  "author": {
+    "name": "Tomáš Lysek",
+    "email": "support@seflo.ai",
+    "url": "https://seflo.ai"
+  },
+  "homepage": "https://seflo.ai",
+  "repository": "https://github.com/tomas-perun/seflo-claude",
+  "license": "MIT",
+  "keywords": [
+    "productivity",
+    "tasks",
+    "knowledge"
+  ]
+}
